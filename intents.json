@@ -1,0 +1,76 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay"],
+     "responses": ["Hello", "Hi", "Hi there"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye"],
+     "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "about",
+     "patterns": ["Who are you?", "What are you?", "Who you are?" ],
+     "responses": ["I'm Crazy, your bot assistant", "I'm Crazy, an Artificial Intelligent bot"]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should I call you", "whats your name?"],
+    "responses": ["You can call me Crazy.", "I'm Crazy!", "Just call me as Crazy"]
+    },
+    {"tag": "help",
+    "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
+    "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you"]
+    },
+    {"tag": "complaint",
+    "patterns": ["have a complaint", "I want to raise a complaint", "there is a complaint about a service"],
+    "responses": ["Please provide us your complaint in order to assist you", "Please mention your complaint, we will reach you and sorry for any inconvenience caused"]
+    },
+    {"tag": "weather",
+    "patterns": ["tell me about weather", "weather report", "what about weather"],
+    "responses": ["Yes, tell me for which city you like to check weather?", "name the city"]
+    },
+    {"tag": "city1",
+    "patterns": ["surat", "what about surat", "surat climate"],
+    "responses": ["\nFor Surat,\nTemperature: 31C\nPrecipitation: 0 percent\nHumidity: 27 percent\nWind: 11 km/h"]
+    },
+    {"tag": "city2",
+    "patterns": ["mumbai", "what about mumbai", "mumbai climate"],
+    "responses": ["\nFor Mumbai,\nTemperature: 31C\nPrecipitation: 0 percent\nHumidity: 33 percent\nWind: 16 km/h"]
+    },
+    {"tag": "city3",
+    "patterns": ["pune", "what about pune", "pune climate"],
+    "responses": ["\nFor Pune,\nTemperature: 27C\nPrecipitation: 0 percent\nHumidity: 28 percent\nWind: 10 km/h"]
+    },
+    {"tag": "city4",
+    "patterns": ["ahmedabad", "what about ahmedabad", "ahmedabad climate"],
+    "responses": ["\nFor Ahmedabad,\nTemperature: 32C\nPrecipitation: 0 percent\nHumidity: 29 percent\nWind: 8 km/h"]
+    },
+    {"tag": "city5",
+    "patterns": ["nagpur", "what about nagpur", "nagpur climate"],
+    "responses": ["\nFor Nagpur,\nTemperature: 26C\nPrecipitation: 0 percent\nHumidity: 38 percent\nWind: 3 km/h"]
+    },
+    {"tag": "city6",
+    "patterns": ["delhi", "what about delhi", "delhi climate"],
+    "responses": ["\nFor Delhi,\nTemperature: 16C\nPrecipitation: 0 percent\nHumidity: 80 percent\nWind: 10 km/h"]
+    },
+    {"tag": "city7",
+    "patterns": ["jaipur", "what about jaipur", "jaipur climate"],
+    "responses": ["\nFor Jaipur,\nTemperature: 25C\nPrecipitation: 0 percent\nHumidity: 28 percent\nWind: 8 km/h"]
+    },
+    {"tag": "city8",
+    "patterns": ["chennai", "what about chennai", "chennai climate"],
+    "responses": ["\nFor Chennai,\nTemperature: 27C\nPrecipitation: 12 percent\nHumidity: 66 percent\nWind: 19 km/h"]
+    },
+    {"tag": "city9",
+    "patterns": ["patna", "what about patna", "patna climate"],
+    "responses": ["\nFor Patna,\nTemperature: 26C\nPrecipitation: 0 percent\nHumidity: 41 percent\nWind: 3 km/h"]
+    },
+    {"tag": "city10",
+    "patterns": ["bihar", "what about bihar", "bihar climate"],
+    "responses": ["\nFor Bihar,\nTemperature: 26C\nPrecipitation: 1 percent\nHumidity: 46 percent\nWind: 6 km/h"]
+    }
+   
+]
+}
